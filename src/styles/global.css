@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #007F73;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 120px 0;
+}
+.main button{
+    padding: 10px 24px;
+    background-color: #FFC700;
+    cursor: pointer;
+    border: none;
+    color: #01143f;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.main .pokerCard{
+    height: 278px;
+    max-width: 200px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+}
+.main .pokerCard img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.poker_box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
